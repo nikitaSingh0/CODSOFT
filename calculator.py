@@ -121,4 +121,3 @@ div.config(font=('verdana',15))
 
 #  Starts the main event loop of the Tkinter application
 root.mainloop()
-
