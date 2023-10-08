@@ -24,6 +24,7 @@ class RockPaperScissorsGame:
         self.rounds_label = tk.Label(self.title_frame, text="Choose the number of rounds:",font=("Georgia", 12, "bold"),bg="black",fg="white")
         self.rounds_label.pack()
         
+        
         self.rounds_frame = tk.Frame(root)
         self.rounds_frame.pack()
 
@@ -34,7 +35,7 @@ class RockPaperScissorsGame:
         self.btn5 = tk.Button(self.rounds_frame,bg='cornsilk3',fg='black',width=5,height=2, text='5',font=("Georgia", 12, "normal"), command=lambda c=5: self.set_rounds(c))
         self.btn5.pack(side=tk.LEFT)
 
-        self.btn10 = tk.Button(self.rounds_frame,bg='cornsilk3',fg='black',width=5,height=2, text='7',font=("Georgia", 12, "normal"), command=lambda c=10: self.set_rounds(c))
+        self.btn10 = tk.Button(self.rounds_frame,bg='cornsilk3',fg='black',width=5,height=2, text='7',font=("Georgia", 12, "normal"), command=lambda c=7: self.set_rounds(c))
         self.btn10.pack(side=tk.LEFT)
 
         self.btn9 = tk.Button(self.rounds_frame,bg='cornsilk3',fg='black',width=5,height=2, text='9',font=("Georgia", 12, "normal"),command=lambda c=9: self.set_rounds(c))
